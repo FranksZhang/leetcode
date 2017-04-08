@@ -14,6 +14,11 @@
 - 思路：将数字从个位数开始反转，到最后比较反转后的数字和原数字是否相等。
 - 代码：[示例代码](https://github.com/FranksZhang/leetcode/blob/master/src/com/zwf/IsPalindrome.java)
 
+## 292.[Nim Game](https://leetcode.com/problems/nim-game/#/description)
+- 题目：你和你朋友玩著名的Nim游戏。有一堆石头在桌子上，每次你们都可以拿1~3个石头离开，你先手，轮流拿。最后一块石头是谁拿走的就是谁赢。
+- 思路：每次可以拿1~3块石头。如果你最后留下四块石头，对手必输。也就是说你要判断每轮的石头数剩下的是不是4的倍数，如果一开始就是4的倍数，那你就输了。反之则能赢。
+- 代码：[示例代码](https://github.com/FranksZhang/leetcode/blob/master/src/com/zwf/CanWinNim.java)
+
 ## 319.[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/#/description)
 - 题目：有n盏灯，从1到n次开关灯，每次开关是i次的倍数的灯。求最后有几盏灯亮着。
 - 思路：求到最后有多少盏灯亮着。我们可以推算出如果灯的编号i开方后不是整数，最后都是关的。所以题目就转换为求n之前（包括n）有多少个平方数。
