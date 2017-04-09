@@ -9,6 +9,8 @@
 - 思路：构造一个结果链表，将链表1和链表2的值对应相加放入新链表中，用一个数来记录每次相加的结果，因为可能链表1或链表2已经遍历结束。还要记得最后要考虑有没有进位导致产生新节点的情况。
 - 代码：[示例代码](https://github.com/FranksZhang/leetcode/blob/master/src/com/zwf/AddTwoNumbers.java)
 
+## 5.[]()
+
 ## 9.[Palindrome Number](https://leetcode.com/problems/palindrome-number/#/description)
 - 题目：给一个数，判断是否为回文数字。
 - 思路：将数字从个位数开始反转，到最后比较反转后的数字和原数字是否相等。
