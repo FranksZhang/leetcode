@@ -1,13 +1,11 @@
 package com.zwf;
 
+import com.zwf.utils.ListNode;
+
 /**
  * Created by wf on 2017/4/4.
  */
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
- }
+
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int sum = 0;
