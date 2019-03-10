@@ -1,6 +1,8 @@
-package com.zwf.Perfect;
+package com.zwf.math;
 
 /**
+ * 9
+ *
  * Created by wf on 2017/4/5.
  */
 public class IsPalindrome {

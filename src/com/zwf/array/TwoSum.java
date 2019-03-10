@@ -1,4 +1,4 @@
-package com.zwf.Perfect;
+package com.zwf.array;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * 1
+ *
  * Created by wf on 2017/4/3.
  */
 public class TwoSum {

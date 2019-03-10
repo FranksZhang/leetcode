@@ -1,8 +1,10 @@
-package com.zwf;
+package com.zwf.linkedList;
 
 import com.zwf.utils.ListNode;
 
 /**
+ * 2
+ *
  * Created by wf on 2017/4/4.
  */
 

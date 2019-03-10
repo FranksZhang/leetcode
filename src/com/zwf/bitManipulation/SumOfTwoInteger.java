@@ -1,4 +1,4 @@
-package com.zwf.Perfect;
+package com.zwf.bitManipulation;
 
 /**
  * Created by wf on 2017/4/1.

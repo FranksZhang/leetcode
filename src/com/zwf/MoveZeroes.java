@@ -1,4 +1,4 @@
-package com.zwf.ToOptimize;
+package com.zwf;
 
 /**
  * 283 算法待优化
@@ -26,13 +26,5 @@ public class MoveZeroes {
                 zeroIndex = j+1;
             }
         }
-    }
-
-    public static void main(String[] args) {
-        MoveZeroes zeroes = new MoveZeroes();
-        int[] nums = {0,0,5,1,0,3,12};
-        zeroes.moveZeroes(nums);
-        for (int i = 0; i < nums.length; i++)
-            System.out.println(nums[i]);
     }
 }
