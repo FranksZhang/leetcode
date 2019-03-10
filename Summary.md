@@ -18,6 +18,12 @@
 - 思路：将数字从个位数开始反转，到最后比较反转后的数字和原数字是否相等。
 - 代码：[示例代码](https://github.com/FranksZhang/leetcode/blob/master/src/com/zwf/math/IsPalindrome.java)
 
+## 26.[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- 题目：给一个有序数组，将数组中所有重复的值移除，不能使用额外空间（必须在原数组上操作），返回剩余长度。
+- 思路：思路参考第27题。思路类似，就是遍历一遍。将重复的跳过，非重复的数值往前填充。
+- 代码：[示例代码](https://github.com/FranksZhang/leetcode/blob/master/src/com/zwf/twoPointers/RemoveDuplicates.java)
+
+
 ## 27.[Remove Element](https://leetcode.com/problems/remove-element/)
 - 题目：给一个数组，将数组中所有等于指定输入的值移除，不能使用额外空间（必须在原数组上操作），返回剩余长度。
 - 思路：思路参考第283题。
