@@ -18,8 +18,17 @@
 - 思路：将数字从个位数开始反转，到最后比较反转后的数字和原数字是否相等。
 - 代码：[示例代码](https://github.com/FranksZhang/leetcode/blob/master/src/com/zwf/math/IsPalindrome.java)
 
+## 27.[Remove Element](https://leetcode.com/problems/remove-element/)
+- 题目：给一个数组，将数组中所有等于指定输入的值移除，不能使用额外空间（必须在原数组上操作），返回剩余长度。
+- 思路：思路参考第283题。
+- 代码：[示例代码](https://github.com/FranksZhang/leetcode/blob/master/src/com/zwf/twoPointers/RemoveElement.java)
+
 ## 35.[Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 
+## 283.[Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+- 题目：给一个数组，将数组中所有0移动到末尾，不能使用额外空间（必须在原数组上操作）。
+- 思路：遍历一遍数组，如果遇到0，将后续的非0数字移动补上。最后数组剩下的位置补0。
+- 代码：[示例代码](https://github.com/FranksZhang/leetcode/blob/master/src/com/zwf/array/MoveZeroes.java)
 
 ## 292.[Nim Game](https://leetcode.com/problems/nim-game/#/description)
 - 题目：你和你朋友玩著名的Nim游戏。有一堆石头在桌子上，每次你们都可以拿1~3个石头离开，你先手，轮流拿。最后一块石头是谁拿走的就是谁赢。
