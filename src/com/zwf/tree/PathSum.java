@@ -1,4 +1,4 @@
-package com.zwf;
+package com.zwf.tree;
 
 /**
  * 112
@@ -19,16 +19,5 @@ public class PathSum {
             return true;
 
         return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
-    }
-}
-
-class TreeNode2 {
-
-    int val;
-    TreeNode2 left;
-    TreeNode2 right;
-
-    TreeNode2(int x) {
-        val = x;
     }
 }
