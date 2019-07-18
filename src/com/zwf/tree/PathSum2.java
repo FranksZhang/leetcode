@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * 113 
+ * 113
  */
 public class PathSum2 {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
@@ -31,12 +31,4 @@ public class PathSum2 {
         path.remove(path.size() - 1);
     }
 
-    public static void main(String[] args) {
-        PathSum2 sum2 = new PathSum2();
-        TreeNode left = new TreeNode(1, null, null);
-        TreeNode root = new TreeNode(2, left, null);
-
-        sum2.pathSum(root, 3);
-
-    }
 }
